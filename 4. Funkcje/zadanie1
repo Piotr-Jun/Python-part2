@@ -1,0 +1,8 @@
+
+liczba_a = input('Podaj liczbe A: ')
+liczba_b = input('Podaj liczbe B: ')
+dodawnaie = liczba_a + liczba_b 
+odejmowanie = liczba_a - liczba_b
+mnozenie = liczba_a * liczba_b
+dzielenie = liczba_a / liczba_b
+print("wybierz dzialanie :", {dodawnaie}, {odejmowanie}, {mnozenie}, {dzielenie})

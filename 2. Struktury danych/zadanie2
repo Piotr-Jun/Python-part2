@@ -1,0 +1,8 @@
+slowo = input("Podaje slowo: ")
+
+owdrotne_slowo = slowo[::-1]
+
+if slowo == owdrotne_slowo:
+    print("Palindrom")
+else:
+    print("nie palindrom")

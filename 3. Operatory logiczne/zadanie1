@@ -1,0 +1,10 @@
+rok_urodzenia = int(input("Podaj rok urodzenia: "))
+posiada_kat_A2 = input("Czy posiadasz prawo jazdy kategorii A2 (Tak/Nie)? ")
+
+if posiada_kat_A2.lower() == "tak":
+    rok_posiadania_A2 = int(input("Podaj rok uzyskania prawa jazdy kategorii A2: "))
+current_year = 2023
+if (current_year - rok_urodzenia >= 24) or (posiada_kat_A2.lower() == "tak" and current_year - rok_posiadania_A2 >= 2 and current_year - rok_urodzenia >= 20):
+    print("Możesz przystąpić do egzaminu na prawo jazdy kategorii A")
+else:
+    print("Nie możesz jeszcze przystąpić do egzaminu na prawo jazdy kategorii A")

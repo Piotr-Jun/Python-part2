@@ -1,0 +1,13 @@
+slowa = ['burak', 'cukinia', 'pomidor', 'cytryna', 'ananas', 'papryka', 'dynia']
+litera = input("Podaj literę: ")
+
+wynik = []
+
+for slowo in slowa:
+    if slowo.startswith(litera):
+        wynik.append(slowo)
+
+if not wynik:
+    print("Żaden wyraz nie zaczyna się na tę literę.")
+else:
+    print(f"Słowa zaczynające się na literę '{litera}': {wynik}")

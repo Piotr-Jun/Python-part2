@@ -1,0 +1,13 @@
+krotka = (10, -3, 4, 9, 12, 6, 0)
+
+najmniejsza = krotka[0]
+najwieksza = krotka[0]
+
+for i in krotka:
+    if i < najmniejsza:
+        najmniejsza = i
+    if i > najwieksza:
+        najwieksza = i
+
+print("To jest najmniejsza liczba: ", najmniejsza)
+print("To jest największa liczba: ", najwieksza)
